@@ -10,7 +10,9 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String h = "Hello ";
+            String w = "world!";
+            Console.WriteLine(h + w);
             Console.ReadKey();
         }
     }
